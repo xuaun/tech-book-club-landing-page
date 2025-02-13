@@ -1,0 +1,139 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  /* NEUTRAL */
+  --neutral-900: hsl(194, 78%, 11%);
+  --neutral-700: hsl(195, 23%, 28%);
+  --neutral-200: hsl(17, 12%, 89%);
+  --neutral-100: hsl(17, 41%, 97%);
+  --neutral-000: hsl(0, 0%, 100%);
+  /* LIGHT SALMON */
+  --light-salmon-500: hsl(22, 99%, 72%);
+  --light-salmon-100: hsl(22, 100%, 91%);
+  --light-salmon-050: hsl(23, 100%, 97%);
+  /* GRADIENT - VALUES */
+  --gradient-1-011: #ff9a60;
+  --gradient-1-061: var(--neutral-900);
+  --gradient-2-000: var(--light-salmon-100);
+  --gradient-2-100: var(--light-salmon-050);
+  --gradient-3-000: var(--neutral-700);
+  --gradient-3-100: var(--neutral-900);
+
+  /* GRADIENT - CODE */
+  --gradient-1-background: var(--gradient-1-011);
+  --gradient-1-moz: -moz-linear-gradient(
+    107deg,
+    var(--gradient-1-011) -11.37%,
+    var(--gradient-1-061) 61.84%
+  );
+  --gradient-1-webkit: -webkit-linear-gradient(
+    107deg,
+    var(--gradient-1-011) -11.37%,
+    var(--gradient-1-061) 61.84%
+  );
+  --gradient-1: linear-gradient(
+    107deg,
+    var(--gradient-1-011) -11.37%,
+    var(--gradient-1-061) 61.84%
+  );
+  --gradient-1-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF9A60",endColorstr="#062630",GradientType=1);
+
+  --gradient-2-background: var(--gradient-2-000);
+  --gradient-2-moz: -moz-linear-gradient(
+    90deg,
+    var(--gradient-2-000) 0%,
+    var(--gradient-2-100) 100%
+  );
+  --gradient-2-webkit: -webkit-linear-gradient(
+    90deg,
+    var(--gradient-2-000) 0%,
+    var(--gradient-2-100) 100%
+  );
+  --gradient-2: linear-gradient(
+    90deg,
+    var(--gradient-2-000) 0%,
+    var(--gradient-2-100) 100%
+  );
+  --gradient-2-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFE2D1",endColorstr="#FFF5EF",GradientType=1);
+
+  --gradient-3-background: var(--gradient-3-000);
+  --gradient-3-moz: -moz-linear-gradient(
+    90deg,
+    var(--gradient-3-000) 0%,
+    var(--gradient-3-100) 100%
+  );
+  --gradient-3-webkit: -webkit-linear-gradient(
+    90deg,
+    var(--gradient-3-000) 0%,
+    var(--gradient-3-100) 100%
+  );
+  --gradient-3: linear-gradient(
+    90deg,
+    var(--gradient-3-000) 0%,
+    var(--gradient-3-100) 100%
+  );
+  --gradient-3-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#385159",endColorstr="#062630",GradientType=1);
+
+  /* TYPOGRAPHY DS */
+  /* TEXT PRESET 1 */
+  --text-1-family: "Martian Mono", sans-serif;
+  --text-1-size: clamp(3.8rem, 1.51rem + 6.107vw, 6.2rem);
+  --text-1-weight: 700;
+  --text-1-height: 120%;
+  --text-1-spacing: -0.2rem;
+  /* TEXT PRESET 2 */
+  --text-2-family: "Martian Mono", sans-serif;
+  --text-2-size: clamp(3.4rem, 1.873rem + 4.071vw, 5rem);
+  --text-2-weight: 600;
+  --text-2-height: 130%;
+  --text-2-spacing: -0.2rem;
+  /* TEXT PRESET 3 */
+  --text-3-family: "Martian Mono", sans-serif;
+  --text-3-size: clamp(2.4rem, 1.446rem + 2.545vw, 3.4rem);
+  --text-3-weight: 600;
+  --text-3-height: clamp(2.64rem, 0.942rem + 4.529vw, 4.42rem);
+  --text-3-spacing: -0.1rem;
+  /* TEXT PRESET 4 */
+  --text-4-family: "Martian Mono", sans-serif;
+  --text-4-size: 2.4rem;
+  --text-4-weight: 600;
+  --text-4-height: 110%;
+  --text-4-spacing: -0.1rem;
+  /* TEXT PRESET 4 - REGULAR*/
+  --text-4-regular-weight: 400;
+  /* TEXT PRESET 5 */
+  --text-5-family: "Inter", sans-serif;
+  --text-5-size: 2rem;
+  --text-5-weight: 400;
+  --text-5-height: 140%;
+  --text-5-spacing: -0.05rem;
+  /* TEXT PRESET 5 - SEMIBOLD */
+  --text-5-semibold-weight: 600;
+  /* TEXT PRESET 6 */
+  --text-6-family: "Martian Mono", sans-serif;
+  --text-6-size: clamp(1.6rem, 1.409rem + 0.509vw, 1.8rem);
+  --text-6-weight: 600;
+  --text-6-height: 130%;
+  --text-6-spacing: -0.1rem;
+  /* TEXT PRESET 7 */
+  --text-7-family: "Martian Mono", sans-serif;
+  --text-7-size: 1.4rem;
+  --text-7-weight: 400;
+  --text-7-height: 120%;
+  --text-7-spacing: -0.1rem;
+
+  /* PAGE */
+  /* COLORS */
+  --background-page-color: var(--neutral-000);
+  --background-hero-color: var(--neutral-100);
+  --background-journey-color: var(--neutral-100);
+  --background-footer-color: var(--neutral-900);
+  --background-btn-color: var(--light-salmon-050);
+  --border-journey-color: var(--neutral-200);
+  --border-footer-color: var(--neutral-700);
+  --text-header: var(--neutral-900);
+  --text-body: var(--neutral-700);
+  --text-btn: var(--neutral-900);
+  --text-footer-header: var(--neutral-100);
+  --text-footer-body: var(--neutral-000);
+}

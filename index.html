@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tech book club</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Tech book club challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, coding, front-end, challenge, projects"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="English" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <img
+        src="./src/assets/images/logo.svg"
+        alt="Tech book club logo"
+        title="Tech book club logo"
+        class="header__logo"
+      />
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__body">
+          <h1 class="hero__header">Join the ultimate tech book club</h1>
+          <p class="hero__text">
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussions,
+            and level up your skills one chapter at a time.
+          </p>
+          <a href="#membership" class="btn"
+            ><p class="btn-text">Review membership options</p>
+            <img
+              src="./src/assets/images/icon-arrow-down.svg"
+              alt=""
+              class="btn-icon"
+          /></a>
+          <div class="users">
+            <img
+              src="./src/assets/images/image-avatars.webp"
+              alt=""
+              class="avatars"
+            />
+            <div class="users-info">
+              <div class="rating">
+                <img
+                  src="./src/assets/images/icon-star.svg"
+                  alt=""
+                  class="star"
+                />
+                <img
+                  src="./src/assets/images/icon-star.svg"
+                  alt=""
+                  class="star"
+                />
+                <img
+                  src="./src/assets/images/icon-star.svg"
+                  alt=""
+                  class="star"
+                />
+                <img
+                  src="./src/assets/images/icon-star.svg"
+                  alt=""
+                  class="star"
+                />
+                <img
+                  src="./src/assets/images/icon-star.svg"
+                  alt=""
+                  class="star"
+                />
+              </div>
+              <p class="users-total">200+ developers joined already</p>
+            </div>
+          </div>
+        </div>
+        <picture class="hero__pic">
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/images/image-hero-tablet.webp"
+          />
+          <source
+            media="(max-width: 465px)"
+            srcset="./src/assets/images/image-hero-mobile.webp"
+          />
+          <img
+            src="./src/assets/images/image-hero-desktop.webp"
+            alt="Group of people reading together"
+            class="hero__img"
+          />
+        </picture>
+      </section>
+      <section class="info">
+        <picture class="info__pic">
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/images/image-read-together-tablet.webp"
+          />
+          <source
+            media="(max-width: 465px)"
+            srcset="./src/assets/images/image-read-together-mobile.webp"
+          />
+          <img
+            src="./src/assets/images/image-read-together-desktop.webp"
+            alt="Group of people reading together"
+            class="info__img"
+          />
+        </picture>
+
+        <div class="info__body">
+          <h2 class="info__header">Read together, grow together</h2>
+          <ul class="info__list">
+            <li class="info__list-item">
+              Monthly curated tech reads selected by industry experts
+            </li>
+            <li class="info__list-item">
+              Virtual and in-person meetups for deep-dive discussions
+            </li>
+            <li class="info__list-item">
+              Early access to new tech book releases
+            </li>
+            <li class="info__list-item">
+              Author Q&A sessions with tech thought leaders
+            </li>
+          </ul>
+        </div>
+
+        <div class="info__body">
+          <h2 class="info__header">Not your average book <span>club</span></h2>
+          <p class="info__text">
+            Connect with a community that speaks your language - from
+            <span>Python</span> to <span>TypeScript</span> and everything in
+            between. Our discussions blend technical depth with practical
+            applications.
+          </p>
+        </div>
+
+        <picture class="info__pic">
+          <source
+            media="(max-width: 768px)"
+            srcset="./src/assets/images/image-not-average-tablet.webp"
+          />
+          <source
+            media="(max-width: 465px)"
+            srcset="./src/assets/images/image-not-average-mobile.webp"
+          />
+          <img
+            src="./src/assets/images/image-not-average-desktop.webp"
+            alt="Group of people reading together"
+            class="info__img"
+          />
+        </picture>
+      </section>
+
+      <section class="journey">
+        <div class="journey__body">
+          <h2 class="journey__header">Your tech reading journey</h2>
+          <ol class="journey__list">
+            <li class="journey__list-item">Choose your membership tier</li>
+            <li class="journey__list-item">Get your monthly book selection</li>
+            <li class="journey__list-item">Join our discussion forums</li>
+            <li class="journey__list-item">Attend exclusive meetups</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="membership" id="membership">
+        <h2 class="membership__header">Membership options</h2>
+        <div class="membership__options">
+          <div class="membership__option">
+            <h3 class="option__header">Starter</h3>
+            <p class="option__price"><span>$19</span> /month</p>
+            <ul class="option__list">
+              <li class="option__list-item">1 book/month</li>
+              <li class="option__list-item">Online forums</li>
+            </ul>
+            <button class="option__btn">Subscribe now</button>
+          </div>
+
+          <div class="membership__option">
+            <h3 class="option__header">Pro</h3>
+            <p class="option__price"><span>$29</span> /month</p>
+            <ul class="option__list">
+              <li class="option__list-item">2 books/month</li>
+              <li class="option__list-item">Virtual meetups</li>
+            </ul>
+            <button class="option__btn">Subscribe now</button>
+          </div>
+
+          <div class="membership__option">
+            <h3 class="option__header">Enterprise</h3>
+            <p class="option__price"><span>Custom</span></p>
+            <ul class="option__list">
+              <li class="option__list-item">Team access</li>
+              <li class="option__list-item">Private sessions</li>
+            </ul>
+            <button class="option__btn">Talk to us</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="rating">
+          <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+          <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+          <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+          <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+          <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+        </div>
+
+        <h4 class="testimonial__header">
+          "This book club transformed my technical reading from a solitary
+          activity into an enriching community experience. The discussions are
+          gold!"
+        </h4>
+
+        <p class="testimonial__name">Sarah Chen, Software Architect</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__header">Ready to debug your reading list?</h2>
+      <a href="#membership" class="btn"
+        ><p class="btn-text">Review membership options</p>
+        <img
+          src="./src/assets/images/icon-arrow-up.svg"
+          alt=""
+          class="btn-icon"
+      /></a>
+      <div class="users">
+        <img
+          src="./src/assets/images/image-avatars.webp"
+          alt=""
+          class="avatars"
+        />
+        <div class="users-info">
+          <div class="rating">
+            <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+            <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+            <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+            <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+            <img src="./src/assets/images/icon-star.svg" alt="" class="star" />
+          </div>
+          <p class="users-total">200+ developers joined already</p>
+        </div>
+      </div>
+
+      <footer class="footer__footer">
+        <p class="footer__copyright">© 2024 - Tech Book Club</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link"
+            ><img
+              src="./src/assets/images/logo-bluesky.svg"
+              alt=""
+              class="footer__social-icon"
+          /></a>
+          <a href="#" class="footer__social-link"
+            ><img
+              src="./src/assets/images/logo-linkedin.svg"
+              alt=""
+              class="footer__social-icon"
+          /></a>
+        </div>
+      </footer>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="attribution__link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://xuaun.github.io/"
+          target="_blank"
+          class="attribution__link"
+          >João Víctor de Araujo Lima</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
